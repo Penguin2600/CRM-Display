@@ -64,8 +64,6 @@ Counter=Counter+1
             serin RX,T9600, #DigiOne
             freqout piezo, 100, 1250 
             counter=0
-        case 4
-            call four
         CASE ELSE 
             counter=0
         END SELECT
